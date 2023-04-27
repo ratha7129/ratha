@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include ratha *.css
+recursive-include ratha *.csv
+recursive-include ratha *.html
+recursive-include ratha *.ico
+recursive-include ratha *.js
+recursive-include ratha *.json
+recursive-include ratha *.md
+recursive-include ratha *.png
+recursive-include ratha *.py
+recursive-include ratha *.svg
+recursive-include ratha *.txt
+recursive-exclude ratha *.pyc
